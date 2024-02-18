@@ -126,7 +126,15 @@ quitBtn.addEventListener('click', () => {
     location.reload();
 });
 ```
+### Step 6(Optional) : Add Winning Moves For CPU
+Now we will implement logic for the CPU opponent to make better moves instead of just random moves.
+```javascript
+// Function to handle restarting the game
+function setCPUMove() {
+    // Handle opponent move here
+}
 
+```
 ### Conclusion
 
 Congratulations! You've successfully created a Tic Tac Toe game using HTML, CSS, and JavaScript. This game demonstrates the core concepts of web development, including user interaction, event handling, and dynamic content updates.
